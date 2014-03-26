@@ -2,30 +2,7 @@
    calculator
    ========================================================================== */
 
-.box
-{
-    background-color:#3d4543;
-    height:300px;
-    width:250px;
-    border-radius:10px;
-    position:relative;
-    top:80px;
-    left:40%;
-}
-h1, h2, h3, h4, h5, h6 {
-    color: #fff;
-    font-weight: 600;
-}
-Collapse | Copy Code
-.display
-{
-    background-color:#222;
-    width:220px;
-    position:relative;
-    left:15px;
-    top:20px;
-    height:40px;
-}
+
 .display input
 {
     position:relative;
@@ -37,18 +14,13 @@ Collapse | Copy Code
     font-size:21px;
     text-align:right;
 }
-Collapse | Copy Code
-.keys
-{
-    position:relative;
-    top:15px;
-}
+
 .button
 {
     width:40px;
     height:30px;
     border:none;
-    border-radius:8px;
+    border-radius:10px;
     margin-left:17px;
     cursor:pointer;
     border-top:2px solid transparent;
@@ -98,7 +70,7 @@ Collapse | Copy Code
 .orange:active
 {
     border-top:black 2px solid;
-    border-bottom:FF9933 2px solid;
+    border-bottom:#303030 2px solid;
 }
 p
 {

@@ -9,7 +9,7 @@
     <link href="./stylesheets/style-narrow.css" rel="stylesheet" />
     <link href="./stylesheets/style-wide.css" rel="stylesheet" />
     <link href="./stylesheets/style.css" rel="stylesheet" />
-    <link href="/test/stylesheets/calculator.css" rel="stylesheet" />
+    <link href="../test/stylesheets/calculator.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <script src="./stylesheets/style-narrow.css" ></script>
@@ -39,7 +39,7 @@
 
     <section class="billboard">
         <section class="caption">
-            <a href="Landmarks.html">Famous Landmarks <i></i></a>
+            <a href="">Famous Landmarks <i></i></a>
             <p class="cap_title">Famous Landmarks</p>
             <p class="cap_desc">My Hobby is taking images from landmarks all over the world</p>
 
@@ -50,7 +50,7 @@
     <!-- Features -->
 
     <!-- Main -->
-
+<h1>Paul Harrison Student no: x00111132</h1>
 <h1>Calculator</h1>
     <div id="Calculator" class="seven columns add-bottom offset-by-one">
         <section class="4u">
@@ -187,6 +187,27 @@
         }
 
     })();
+</script>
+<script>
+    function c(val)
+    {
+        document.getElementById("d").value=val;
+    }
+    function v(val)
+    {
+        document.getElementById("d").value+=val;
+    }
+    function e()
+    {
+        try
+        {
+            c(eval(document.getElementById("d").value))
+        }
+        catch(e)
+        {
+            c('Error')
+        }
+    }
 </script>
 </div>
 </body>

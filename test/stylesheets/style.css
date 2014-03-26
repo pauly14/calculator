@@ -1,25 +1,11 @@
 body {
-	background: #2c373b;
+	background: #d91707;
 	color: #b2b9bC;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
 	line-height: 2em;
 }
 
-/* ==========================================================================
-   calculator
-   ========================================================================== */
-
-.box
-{
-    background-color:#3d4543;
-    height:300px;
-    width:250px;
-    border-radius:10px;
-    position:relative;
-    top:80px;
-    left:40%;
-}
 h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 	font-weight: 600;
