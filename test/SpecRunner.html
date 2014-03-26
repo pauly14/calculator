@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Jasmine Spec Runner v2.0.0</title>
+
+  <link rel="shortcut icon" type="image/png" href="./js/jasmine_favicon.png">
+  <link rel="stylesheet" type="text/css" href="./stylesheets/jasmine.css">
+
+  <script type="text/javascript" src="./js/jasmine.js"></script>
+  <script type="text/javascript" src="./js/jasmine-html.js"></script>
+  <script type="text/javascript" src="./js/boot.js"></script>
+    <script type="text/javascript" src="./js/ConverterSpec.js"></script>
+  <!-- include source files here... -->
+  <script type="text/javascript" src="test/spec/Player.js"></script>
+  <script type="text/javascript" src="test/spec/Song.js"></script>
+
+  <!-- include spec files here... -->
+  <script type="text/javascript" src="test/spec/SpecHelper.js"></script>
+  <script type="text/javascript" src="test/spec/PlayerSpec.js"></script>
+     <script type= "text/javascript">
+
+         var Converter = (function (){
+             // private stuff goes here
+             var converterValue = 2.2;
+             //public methods go here
+             return {
+                 convertFromImperialToMetric: function(weight){
+                     var num = parseInt(weight);
+
+                     if (isNaN(num) == true) {
+                         throw new Error ("not a number");
+                     }
+
+
+
+
+                     num = num / converterValue;
+                     return Math.round(num);
+
+                 },
+
+                 convertFromMetricToImperial: function (weight) {
+                     return weight / converterValue;
+                 }
+             }
+
+         })();
+     </script>
+
+</head>
+
+<body>
+</body>
+</html>
