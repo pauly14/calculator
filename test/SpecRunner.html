@@ -20,32 +20,7 @@
   <script type="text/javascript" src="test/spec/PlayerSpec.js"></script>
      <script type= "text/javascript">
 
-         var Converter = (function (){
-             // private stuff goes here
-             var converterValue = 2.2;
-             //public methods go here
-             return {
-                 convertFromImperialToMetric: function(weight){
-                     var num = parseInt(weight);
 
-                     if (isNaN(num) == true) {
-                         throw new Error ("not a number");
-                     }
-
-
-
-
-                     num = num / converterValue;
-                     return Math.round(num);
-
-                 },
-
-                 convertFromMetricToImperial: function (weight) {
-                     return weight / converterValue;
-                 }
-             }
-
-         })();
      </script>
 
 </head>
