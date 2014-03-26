@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b28f79e0-4512-4c8c-a666-28d01fdd4de2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Pantheon_16x9_6483.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/corcovado pix.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/right_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/right_arrow_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/work_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/js/CalculatorSpec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/calculator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="DELETED" beforePath="C:\Users\Paul\Documents\boilerplate\calculator\js\converter.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Paul\Documents\boilerplate\calculator\test\js\ConverterSpec.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/SpecRunner.html" afterPath="$PROJECT_DIR$/test/SpecRunner.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/stylesheets/calculator.css" afterPath="$PROJECT_DIR$/test/stylesheets/calculator.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/specRunner.html" afterPath="$PROJECT_DIR$/specRunner.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/stylesheets/style.css" afterPath="$PROJECT_DIR$/test/stylesheets/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="b28f79e0-4512-4c8c-a666-28d01fdd4de2" name="Default" comment="" />
     <ignored path="calculator.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -568,16 +549,16 @@
       <changelist id="b28f79e0-4512-4c8c-a666-28d01fdd4de2" name="Default" comment="" />
       <created>1395858814508</created>
       <updated>1395858814508</updated>
-      <workItem from="1395858823281" duration="8391000" />
+      <workItem from="1395858823281" duration="8989000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8391000" />
+    <option name="totallyTimeSpent" value="8989000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
